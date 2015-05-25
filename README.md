@@ -4,7 +4,8 @@ Import the contents of a pad in a web page with php
 This projet is a fork of [padList2htmlList](https://github.com/Interstices-/padList2htmlList) of Interstices.
 
 GetSiteWithPad generates the content of a html site on a framapad.
-![GetSiteWithPad 1](https://github.com/Antoine-Gelgon/GetSiteWithPad/raw/master/screenshot_GSWP-2.png)
+
+![GetSiteWithPad](https://github.com/Antoine-Gelgon/GetSiteWithPad/raw/master/screenshot_GSWP-2.png)
 
 ###Add Pad
 The pad is injected with php.
@@ -23,7 +24,13 @@ $pregEnter, $pregExit are array. To add or modify marks
     $pregExit[3] = '<img src="$1" />';
 
 Example : to display a picture:
-  Write this on the pad [img]url/picture[img] will be translated on the site <img scr="url/picture" />
+  Write this on the pad:
+
+    [img]url/picture[img]
+
+will be translated on the site:
+
+    <img scr="url/picture" />
 
 ###Change PassWord
 To access the pad directly trough the site with a password.
