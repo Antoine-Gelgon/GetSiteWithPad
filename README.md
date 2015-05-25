@@ -13,7 +13,7 @@ The pad is injected with php.
     $padUrl = 'Url/Pad';
     $datas = file_get_contents($padUrl.'/export/html');
 
-###Create markdowns
+###Create marks
 With function php preg_replace
 
     $datasEnd = preg_replace($pregEnter, $pregExit, $datas);
@@ -44,7 +44,6 @@ You can upload files directly with form :
     
     formUp-files.php -> all formats
     formUp-images.php -> jpg svg png gif
-
 
 ### License
 GNU GENERAL PUBLIC LICENSE
